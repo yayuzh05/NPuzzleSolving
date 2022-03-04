@@ -1,0 +1,45 @@
+QWidget{
+	font-size : 30px;
+	font : large "Times New Roman";
+	background: transparent;
+	border : none;
+	color : #FFFACD;
+	margin : 0px;
+}
+
+
+QMainWindow{
+    border-image : url("background.jpg")
+}
+
+
+
+
+QPushButton{
+	background : rgba(218,165,32,0.8);
+	color : #FFF5EE;
+	border: 2px solid #FFEBCD;
+	border-radius : 20px;
+	min-width : 120px;
+	min-height : 40px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+QLineEdit, QTextEdit, QDateEdit, QComboBox{
+	border: 3px solid #A2B5CD;
+	border-radius : 5px;
+	min-height : 40px;
+	background : rgba(202,225,255,0.5);
+	margin-top : 20px;
+	selection-background-color : #36480e;
+}
+
+
+QLabel{
+    font-size : 30px;
+	font-weight : bold;
+	color: #FFFACD;
+	alignment : bottom;
+    background : rgba(0, 0, 0, 0.7)
+}
